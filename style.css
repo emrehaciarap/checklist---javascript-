@@ -1,0 +1,72 @@
+.container{
+    max-width: 500px;
+    height: auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    border: solid 1px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#task-title, #input-text{
+    display: flex;
+    justify-content: center;
+}
+
+
+#task-field{
+    width: 250px;
+    height: 300px;
+    /* border: solid black 0.5px; */
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+#newTask{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+
+.subdued {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#newdiv{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    border: solid 1px;
+    border-radius: 5px;
+    gap: 8px;
+    margin-bottom: 10px;
+    margin-left: 5;
+    margin-right: 5px;
+    max-width: 500px;
+    overflow-wrap: break-word;
+}
+
+
+
